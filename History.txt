@@ -21,3 +21,9 @@
 * 1 major enhancement:
 
   * Adding grep command-line argument
+
+=== 0.0.5 / 2010-04-02
+
+* 1 major enhancement:
+
+  * Bugfix for generate (-G) command-line argument
