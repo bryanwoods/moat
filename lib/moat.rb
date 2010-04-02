@@ -1,5 +1,4 @@
 module Moat
-  VERSION = '0.0.1'
   FILENAME = "#{ENV['HOME']}/.moatfile"
   SITES = {}
 
