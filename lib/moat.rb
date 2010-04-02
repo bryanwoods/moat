@@ -29,11 +29,11 @@ module Moat
     end
   end
 
-  def generate
+  def generate(length = 9)
     letters = ('a'..'z').to_a
     numbers = ('0'..'9').to_a
     alphanumeric_array = letters + numbers
-    alphanumeric_array.shuffle[0..9].join
+    alphanumeric_array.shuffle[0..length].join
   end
 
 end
