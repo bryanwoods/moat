@@ -26,6 +26,11 @@ option_parser = OptionParser.new do |option_parser|
     @action = :set
   end
 
+  option_parser.on("-g", "--get site", String) do |site|
+    @site = site
+    @action = :get
+  end
+
   option_parser.on("-l", "--length length") do |length|
     @length = length.to_i
   end
