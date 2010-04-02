@@ -9,3 +9,15 @@
 * 1 major enhancement:
 
   * Adding functionality
+
+=== 0.0.3 / 2010-04-02
+
+* 1 major enhancement:
+
+  * Adding README
+
+=== 0.0.4 / 2010-04-02
+
+* 1 major enhancement:
+
+  * Adding grep command-line argument
