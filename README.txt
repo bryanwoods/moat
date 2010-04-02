@@ -5,7 +5,7 @@
     http://gilesbowkett.blogspot.com/2008/02/sudo-gem-install-password.html
 
   Moat improves password by removing the ActiveSupport requirement,
-    generates cleaner alphanumeric passwords, and hides itself in a moatfile.
+    generating cleaner alphanumeric passwords, and hiding itself in a moatfile.
     Everything else should be exactly the same.
 
   Long story short, it's password. Just faster, more stable, and should generate
