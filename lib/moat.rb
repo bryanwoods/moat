@@ -30,9 +30,10 @@ module Moat
   end
 
   def generate(length = 9)
-    letters = ('a'..'z').to_a
+    lowercase_letters = ('a'..'z').to_a
+    uppercase_letters = ('A'..'Z').to_a
     numbers = ('0'..'9').to_a
-    alphanumeric_array = letters + numbers
+    alphanumeric_array = lowercase_letters + uppercase_letters + numbers
     alphanumeric_array.shuffle[0..length].join
   end
 
