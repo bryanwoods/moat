@@ -34,3 +34,9 @@
 
   * Hacky fix to off-by-one bug when generating password with --length argument
 
+=== 0.0.7 / 2010-04-02
+
+* 1 major enhancement:
+
+  * Adding capital letters for better 'security'
+
