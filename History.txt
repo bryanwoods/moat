@@ -40,3 +40,8 @@
 
   * Adding capital letters for better 'security'
 
+=== 0.0.8 / 2010-04-19
+
+* 1 major enhancement:
+
+  * Explicitly requiring YAML
